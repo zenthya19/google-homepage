@@ -1,0 +1,42 @@
+/*Top bar */
+
+.topbar {
+padding-top: 10px;
+padding-left: 10px;
+font-family: arial, sans-serif;
+font-size: 13px;
+}
+
+
+.topright {
+	float: right;
+
+}
+
+.topleft {
+	display: inline;
+}
+
+nav div a {
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	opacity: 0.75;
+}
+
+nav div a:hover {
+	text-decoration: underline;
+}
+
+	/* Icon from https://material.io/icons */
+
+
+#signbutton {
+	border: none;
+	height: 30px;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	background-color: rgb(77, 121, 255);
+	color: white;
+
+}
