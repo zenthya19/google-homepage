@@ -27,9 +27,7 @@ nav div a {
 nav div a:hover {
 	text-decoration: underline;
 }
-
-	/* Icon from https://material.io/icons */
-
+	
 
 #signbutton {
 	border: none;
@@ -39,4 +37,32 @@ nav div a:hover {
 	background-color: rgb(77, 121, 255);
 	color: white;
 
+}
+
+/* Center of the page */
+
+.centerpage {
+	position: relative;
+	left: 36%;
+	top: 180px;
+	width: 600px;
+	text-align: center;
+	
+}
+
+#searchbar {
+	width: 500px;
+	height: 40px;
+	margin-top: 15px;
+	box-shadow: 2px 2px 5px rgb(242, 242, 242);
+}
+
+div form button {
+	margin-top: 20px;
+	border: none;
+	width: 150px;
+	height: 40px;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	cursor: pointer;
 }
