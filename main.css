@@ -1,6 +1,6 @@
 /*Top bar */
 
-.topbar {
+.topbar  {
 padding-top: 10px;
 padding-left: 10px;
 font-family: arial, sans-serif;
@@ -17,7 +17,7 @@ font-size: 13px;
 	display: inline;
 }
 
-nav div a {
+body div a {
 	padding: 10px;
 	text-decoration: none;
 	color: black;
@@ -54,7 +54,8 @@ nav div a:hover {
 	width: 500px;
 	height: 40px;
 	margin-top: 15px;
-	box-shadow: 2px 2px 5px rgb(242, 242, 242);
+	box-shadow: 2px 2px 5px rgb(242, 242, 242); 
+	outline: none;
 }
 
 div form button {
@@ -65,4 +66,66 @@ div form button {
 	font-family: arial, sans-serif;
 	font-weight: bold;
 	cursor: pointer;
+	
+}
+
+/* Bottom of the page */
+
+/*.bottombar {
+	display: inline;
+	position: relative;
+	top: 575px;
+	background-color: grey;
+
+}
+
+.bottomright {
+	float: right;
+	position: relative;
+	top: 575px;
+}
+
+.bottomleft {
+	display: inline;
+}
+
+footer div a {
+	text-decoration: none;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+}
+
+footer div a:hover {
+	text-decoration: underline;
+}
+*/
+
+.bottombar {
+	position: absolute;
+	right: 0;
+	bottom: 0px;
+	left: 0;
+	background-color: rgb(230, 230, 230);
+	padding: 15px;
+
+}
+
+.bottombar a {
+	padding: 10px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+
+}
+
+.bottombar a:hover {
+	text-decoration: underline;
+}
+
+.bottomleft {
+	display: inline;
+}
+
+.bottomright {
+	display: block-inline;
+	float: right;
 }
