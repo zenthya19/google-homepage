@@ -24,7 +24,7 @@ body div a {
 	opacity: 0.75;
 }
 
-nav div a:hover {
+header div a:hover {
 	text-decoration: underline;
 }
 	
@@ -58,47 +58,24 @@ nav div a:hover {
 	outline: none;
 }
 
-div form button {
-	margin-top: 20px;
+
+nav button {
+	position: relative;
+	left: 45%;
+	top: 200px;
 	border: none;
-	width: 150px;
-	height: 40px;
-	font-family: arial, sans-serif;
-	font-weight: bold;
-	cursor: pointer;
-	
-}
-
-/* Bottom of the page */
-
-/*.bottombar {
-	display: inline;
-	position: relative;
-	top: 575px;
-	background-color: grey;
-
-}
-
-.bottomright {
-	float: right;
-	position: relative;
-	top: 575px;
-}
-
-.bottomleft {
-	display: inline;
-}
-
-footer div a {
-	text-decoration: none;
+	width: 8%;
+	padding: 10px;
 	font-family: arial, sans-serif;
 	font-size: 13px;
+	font-weight: bold;
+	cursor: pointer;
+	opacity: .75;
+
 }
 
-footer div a:hover {
-	text-decoration: underline;
-}
-*/
+
+/* Bottom of the page */
 
 .bottombar {
 	position: absolute;
